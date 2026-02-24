@@ -3,7 +3,7 @@
 Title:        Current_Sensing_ACS712
 Date:         2026-02-24
 Author:       Alejandro Alonso Puig + ChatGPT
-License:      MIT License (short version: free to use, modify and distribute)
+License:      Apache 2.0 License
 -------------------------------------------------------------------------------
 Description:
 This program performs a proof-of-concept test for the ACS712 5A current sensor
