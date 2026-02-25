@@ -24,12 +24,12 @@ Designed for laboratory characterization using an electronic load.
 // --------------------------- USER CONFIGURATION -----------------------------
 
 #define ACS_PIN        A0          // Analog pin connected to ACS712 OUT
-#define NUM_SAMPLES    50          // Number of ADC samples per reading (noise reduction)
+#define NUM_SAMPLES    2          // Number of ADC samples per reading (noise reduction)
 #define ADC_SCALE      1023.0      // 10-bit ADC resolution (0–1023)
 #define VREF           5.0         // Arduino Uno default analog reference voltage (Volts)
 
 // Sensitivity for ACS712 5A version = 185 mV/A = 0.185 V/A
-#define SENSITIVITY    0.185       
+#define SENSITIVITY    0.40       
 
 // --------------------------- GLOBAL VARIABLES -------------------------------
 
