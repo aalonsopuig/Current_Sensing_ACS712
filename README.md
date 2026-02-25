@@ -2,6 +2,8 @@
 
 This project provides a proof-of-concept implementation for DC current measurement using the ACS712 Hall-effect current sensor module and an Arduino board.
 
+<img width="500" height="750" alt="image" src="https://github.com/user-attachments/assets/696038bd-521d-4039-9722-1d464c8fe83a" />
+
 The program performs an automatic zero-offset calibration at startup and continuously reads the sensor output to estimate DC current. The measured values (raw ADC, voltage and calculated current in amperes) are sent to the PC through the USB connection for monitoring and validation.
 
 The implementation is intended for laboratory characterization, servo current analysis and protection experiments in robotics systems.
